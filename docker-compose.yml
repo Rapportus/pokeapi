@@ -35,8 +35,8 @@ services:
   web:
     image: nginx:1.23.3-alpine
     ports:
-      - "80:80"
-      - "443:443"
+      - "9080:80"
+      - "9443:443"
     restart: always
     # command: [nginx-debug, '-g', 'daemon off;']
     volumes:
